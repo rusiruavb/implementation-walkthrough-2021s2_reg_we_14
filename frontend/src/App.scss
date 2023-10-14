@@ -1,0 +1,64 @@
+@import './styles/login_page.scss';
+@import './styles/dashboard.scss';
+@import './styles/registration_page.scss';
+@import "./styles/vehicle.scss";
+@import "./styles/navigationBar.scss";
+@import "./styles/manage_vehicle.scss";
+@import "./styles/add_vehicles.scss";
+@import "./styles/add_inspectors.scss";
+@import "./styles/manage_inspectors.scss";
+.App {
+  text-align: center;
+  background: #e5e5e5;
+}
+.react-bootstrap-table {
+  height: 90vh;
+}
+
+.nav-item {
+  font-size: 14px;
+}
+
+.pages {
+  margin-top: 50px;
+}
+
+.align-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #685369;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

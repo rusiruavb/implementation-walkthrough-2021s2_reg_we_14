@@ -1,0 +1,30 @@
+.navbar {
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  float: none;
+  background: #685369;
+}
+
+.navbar-brand-text {
+  color: aliceblue;
+  margin-top: 7px;
+  margin-left: 27px;
+  font-size: 20px;
+}
+
+.navbar-light {
+  width: -webkit-fill-available;
+}
+
+.icon {
+  color: aliceblue;
+  position: absolute;
+  left: 97.33%;
+  right: 20.33%;
+  top: 26.33%;
+  bottom: 8.33%;
+}

@@ -1,0 +1,108 @@
+.manage-vehicles {
+  position: absolute;
+  left: 88px;
+  top: 90px;
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+
+  color: #685369;
+}
+
+.btn {
+  border-radius: 8px;
+  background: #685369;
+}
+
+.btn-train {
+  border-radius: 8px;
+}
+
+.btn-group {
+  left: 90px;
+}
+
+.container{
+margin-top: 152px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 31px;
+}
+
+.vehi-managment-cont{
+  margin-top: 169px;
+  margin-bottom: 35px;
+
+}
+
+.btn-sett{
+  margin-left: 45px;
+}
+
+//card styles
+.dashboard-card-text{
+  width: 300px;
+  height: 121px;
+  margin-top: -200px;
+  margin-left: 31px;
+}
+
+.dashboard-card-text1{
+  font-size: 38px;
+}
+
+.dashboard-card-text2{
+  font-size: 24px;
+}
+
+.dashboard-card-text3{
+  font-size: 32px;
+  margin-top: 7px;
+  font-weight: 500;
+}
+
+.dashboard-card-text4{
+  font-size: 32px;
+  font-weight: 500;
+
+}
+
+.dashboard-card-text5{
+  font-weight: 600;
+}
+
+.dashboard-container{
+  width: 50px;
+  height: 231px;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.dashboard-card-image{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 31px;
+  width: 353px;
+}
+
+.d-cont{
+  margin-top: 69px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flipin-image-vehiclemanagment{
+  width:300px;
+  height:300px;
+}
+//card css
+.card-container{
+  box-shadow: none;
+  margin-left: 7%;
+}

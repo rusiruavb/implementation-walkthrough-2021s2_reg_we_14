@@ -1,0 +1,82 @@
+.student-btn {
+  width: 190px;
+  display: flex;
+  justify-content: end;
+}
+
+.header-class {
+  background-color: #88bdbc;
+}
+
+.vehicle-info {
+  font-size: 14px;
+}
+
+p {
+  margin: 0px;
+}
+
+.student-badge {
+  font-family: 16px;
+}
+
+.vehicle-data {
+  font-size: 12.2px;
+}
+
+.exam-header-text {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+@media (min-width: 0px) {
+  .student-exam-header-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .exam-header-row {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 1400px) {
+  .student-exam-header-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .exam-header-row {
+    width: 50vw;
+  }
+}
+
+.container-vehicle {
+  margin-top: 70px;
+  height: 606px;
+  margin-bottom: 30px;
+  border-radius: 31px;
+}
+
+.btn-add {
+  color: #6b4b6d;
+}
+
+.plus-icon {
+  color: #ffffff;
+}
+
+.card-title {
+  width: 162px;
+  height: 27px;
+  left: 37px;
+  top: 36px;
+
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+}
